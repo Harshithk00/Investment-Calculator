@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+  background-color: #EEF7FF;
+  color: #333;
+  font-family: Quicksand;
+  margin: 0;
+}
+#root{
+  padding-top: 0;
+}
+header {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Quicksand;
+
+}
+hr{
+  /* border: 1px dashed #333; */
+  border: 0;
+  padding: 10px;
+  background: linear-gradient(to left, #333, #7AB2B2 -50%, #eee 120%);
+  box-shadow: 5px 5px 4px 2px #4D869C;
+  border-radius: 4px;
+}
+
+
+
+#Card1{
+  font-kerning: normal;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.c1{
+  display: flex ;
+  justify-content: center;
+  flex: 1fr;
+  gap: 7%;
+}
+.c1input{
+  background-color: #EEF7FF;
+  font-family: Quicksand;
+  border:thick double #CDE8E5;
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  border-radius: 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.c1input:focus{
+  border: thick double #4D869C;
+}
+.c1num::-webkit-inner-spin-button, 
+.c1num::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.pc1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom:3%;
+}
+
+
+
+#tablecontent{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  font-size: large;
+}
+table {
+  width: 50vw;
+  border-collapse: collapse;
+}
+th, td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
